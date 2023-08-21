@@ -32,11 +32,11 @@ nav a:hover {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  min-height: 39vh;
+  min-height: 42vh;
 }
 footer {
   text-align: center;
-  padding: 1em 0;
+  padding: 0.5em 0;
   background-color: #333;
   color: white;
   min-height: 3vh;
