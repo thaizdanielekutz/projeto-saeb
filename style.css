@@ -24,7 +24,9 @@ nav a {
   font-weight: normal;
 }
 nav a:hover {
-  font-weight: bold;
+  font-weight: normal;
+  color: white;
+  text-decoration: underline dashed 1.3px;
 }
 .container {
   max-width: 1200px;
