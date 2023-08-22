@@ -21,9 +21,10 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 0 1em;
+  font-weight: normal;
 }
 nav a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 .container {
   max-width: 1200px;
@@ -41,8 +42,12 @@ ul {
 ul li {
   margin: 10px 0;
 }
+ul li a {
+  text-align: center;
+}
 .button {
-  display: inline-block;
+  display: block;
+  margin-bottom: 10px;
   padding: 10px 20px;
   background-color: #007acc;
   color: white;
@@ -60,6 +65,12 @@ footer {
   min-height: 3vh;
 }
 @media screen and (max-width: 600px) {
+  .container h2 {
+    text-align: center;
+  }
+  .container p {
+    text-align: center;
+  }
   nav {
     display: flex;
     flex-direction: column;

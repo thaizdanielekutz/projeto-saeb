@@ -11,7 +11,21 @@ header {
   padding: 1em 0;
   min-height: 10vh;
 }
-
+nav {
+  background-color: #ff9900;
+  padding: 1em 0;
+  text-align: center;
+  min-height: 20;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: normal;
+}
+nav a:hover {
+  font-weight: bold;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -19,12 +33,49 @@ header {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  min-height: 62vh;
+  min-height: 54vh;
 }
+ul {
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  margin: 10px 0;
+}
+ul li a {
+  text-align: center;
+}
+.button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   padding: 0.5em 0;
   background-color: #333;
   color: white;
   min-height: 3vh;
+}
+@media screen and (max-width: 600px) {
+  .container h2 {
+    text-align: center;
+  }
+  .container p {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin: 0.5em 0;
+  }
 }
